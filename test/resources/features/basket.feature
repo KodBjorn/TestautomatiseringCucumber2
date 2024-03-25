@@ -9,7 +9,7 @@ Feature: Testing the Supporter Account signup
     Given I have checked "<tac>", age and code of ethics and conduct
     When  I click the confirm and join button
     Then  I verify "<text>" on the site
-
+    
     Examples:
       | driver | last name | confirmed | tac | text |
       | chrome |    doe    |   true    |true | THANK YOU FOR CREATING AN ACCOUNT WITH BASKETBALL ENGLAND|
